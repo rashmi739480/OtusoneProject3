@@ -1,4 +1,4 @@
-const bio = [
+export const bio = [
     {
       id: 1,
       icon: "/Images/feature-01.webp",

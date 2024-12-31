@@ -1,4 +1,4 @@
-const bottom = [
+export const bottom = [
     {
         id: 1,
         head: "For Patients",
