@@ -5,49 +5,8 @@ import { IoLocationSharp } from "react-icons/io5";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { IoIosStar } from "react-icons/io";
 import { FaRegMoneyBillAlt } from "react-icons/fa";
-const cards = [
-    {
-        img1: "/Images/Ankit.webp",
-        para: "BHMS",
-        heading: "lakshmi shodhana Kas",
-        star: "",
-        t1: "Maharastra",
-        t2: "4000",
-    },
-    {
-        img1: "/Images/vandana.webp",
-        para: "MBBS",
-        heading: "Dr. Vandna Kanani",
-        star: "",
-        t1: "Gujrat",
-        t2: "1400",
-    },
-    {
-        img1: "/Images/Anuj.webp",
-        para: "BAMS",
-        heading: "Anuj Mishra",
-        star: "",
-        t1: "Maharastra",
-        t2: "2000",
-    },
-    {
-        img1: "/Images/Mukesh.webp",
-        para: "BAMS",
-        heading: "md psychiatry",
-        star: "",
-        t1: "Punjab",
-        t2: "300",
-    },
-    {
-        img1: "/Images/Ketan.webp",
-        para: "BDS",
-        heading: "md psychiatry",
-        star: "",
-        t1: "Maharastra",
-        t2: "300",
-    },
-]
 
+import { cards } from '../data/ThirdData';
 const Third = () => {
     return (
         <section className='bg-gray-100 py-20'>

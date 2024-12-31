@@ -3,23 +3,7 @@ import { GrFacebookOption } from "react-icons/gr";
 import { BiLogoInstagramAlt } from "react-icons/bi";
 import { MdKeyboardDoubleArrowLeft } from "react-icons/md";
 
-const bottom = [
-    {
-        id: 1,
-        head: "For Patients",
-        para: "Search for Doctors",
-    },
-    {
-        id: 2,
-        para: "Login",
-        head: "For Doctors",
-    },
-    {
-        id: 3,
-        head: "Contact Us",
-        para: " +91 959 900 5673"
-    }
-]
+import {bottom} from "../data/FooterData";
 
 const Footer = () => {
     return (

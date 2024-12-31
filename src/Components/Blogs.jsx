@@ -1,6 +1,6 @@
 import React from 'react'
 import { CiClock2 } from "react-icons/ci";
-import { categories,cards } from '../data/utilityData';
+import { categories,cards } from '../data/BlogData1';
 
 const Blogs = () => {
     return (
